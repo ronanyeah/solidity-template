@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "hardhat --emoji node --hostname 0.0.0.0",
+    "compile": "hardhat compile",
+    "watch": "nodemon -x \"hardhat compile\" -e sol"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
+    "hardhat": "^2.6.2",
+    "hardhat-abi-exporter": "^2.3.0",
+    "nodemon": "^2.0.12"
+  }
+}
